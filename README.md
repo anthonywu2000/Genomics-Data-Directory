@@ -27,7 +27,10 @@ Additionally, you may want to install all the dependencies in Material-UI and Re
 • `./client/src/App.css` contains the CSS classes used for the frontend.
 
 ## Design/Styling Methodology
-Since this is an internal tool, simplicity in the design is the key! 
+Since this is an internal tool, simplicity in the design is the key! I have thought about making the filter function much more easier and providing direct related results from the table once the user inputs any character.
 
 ## Futhur Discussions and Considerations
 Due to time constraints for this project, I believe some stylings and designs can be furthur improved. Additionally, I hope to make the individual reusable components more generalized (ie. make them able to be used in multiple projects, but this could be out-of-scope). Also, I would like to dive deeper into React.js design patterns, as this would ensure good code quality and support furthur refactoring.
+
+## Extra Notes
+In the database table obtained from MongoDB, 'gCSI_2018_unfiltered' has an empty DOI string. Since there is no specification about this, I have decided to leave this on the table as well. 
