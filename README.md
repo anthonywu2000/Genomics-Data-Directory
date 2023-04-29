@@ -9,7 +9,7 @@ JavaScript, Node.js, Express.js, React.js, Cascading-Style Sheets (CSS), Materia
 ## Installation
 Run `yarn dev` to host the server on localhost:3000. Then run `cd client` to naviagte to the frontend application and run `yarn start` on localhost:3001 to run the full application (note: the Terminal will prompt you to run the frontend on localhost:3001, select yes).
 
-Additionally, you may want to install all the dependencies in Material-UI and React Router DOM. The scripts for installing them can be found in `package.json` of the client directory. Just simply type `npm install <package-name>`. You may also want to install `npm` and other dependencies to initiate the environment (ie. ennabling node_modules folders).
+Additionally, you may want to install all the dependencies in Material-UI and React Router DOM. The scripts for installing them can be found in `package.json` of the client directory. Just simply type `npm install <package-name>`. You may also want to install `npm` and other dependencies to initiate the environment (ie. ennabling `node_modules` folders).
 
 ## Some File Structure Details
 • `routes.js` contains the API endpoints for ORCESTRA API and MongoDB.
