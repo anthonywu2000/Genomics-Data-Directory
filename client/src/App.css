@@ -1,0 +1,33 @@
+body {
+  background-color: gold;
+  background-blend-mode: screen;
+}
+
+.table-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.search-icon-container {
+  padding: 8px;
+}
+
+.input-root {
+  color: black;
+}
+
+.input-input {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #000000dc;
+  width: 300px;
+}
