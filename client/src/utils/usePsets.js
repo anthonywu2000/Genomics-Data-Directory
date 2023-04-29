@@ -10,7 +10,7 @@ const usePsets = (apiEndpoint) => {
     fetch(apiEndpoint)
      .then(response => response.json())
      .then((data) => {
-        setPsets(data.map((repo) => ({ name: repo.name, doi: repo.doi || repo.repositories[0].doi })));
+        setPsets(data.map((obj) => ({ name: obj.name, doi: obj.doi || obj.repositories[0].doi })));
         setIsLoading(false);
      })
      .catch((error) => console.error(error));
