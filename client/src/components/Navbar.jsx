@@ -1,18 +1,18 @@
 import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({title, link1, link2}) => {
   return (
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          ORCESTRA PSets
+          {title}
         </Typography>
         <Button color="inherit" component={Link} to="/">
-          API
+          {link1}
         </Button>
         <Button color="inherit" component={Link} to="/database">
-          Database
+          {link2}
         </Button>
       </Toolbar>
     </AppBar>
