@@ -1,5 +1,6 @@
 import { Button, Link} from '@mui/material'
 
+// creates the doi link constructed in the table
 const Linker = ({str}) => {
     return (
         <Link href={`https://doi.org/${str}`} target="_blank" rel="noopener">
