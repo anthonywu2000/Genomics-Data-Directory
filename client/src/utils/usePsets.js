@@ -10,7 +10,8 @@ const usePsets = (apiEndpoint) => {
   const [psets, setPsets] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [filter, setFilter] = useState('');
-
+  
+  // fetch and parse data here
   useEffect(() => {
     fetch(apiEndpoint)
      .then(response => response.json())
