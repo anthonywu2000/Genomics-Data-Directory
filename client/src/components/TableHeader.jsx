@@ -1,6 +1,7 @@
 import { TableHead, TableRow, TableCell } from "@material-ui/core";
 import { Typography } from '@mui/material'
 
+// creates the header of the table, in this case we have two columns with column names in bold text
 const TableHeader = ({col1, col2}) => {
     return(
         <TableHead>
