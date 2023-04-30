@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar";
 import TableHeader from "./components/TableHeader";
 import TableContent from "./components/TableContent";
 
+// returns the display of the search bar and the full populated table
 const Display = ({filter, func, dat, label}) => {
     return (
         <div className="table-container">
