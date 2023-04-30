@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import filterfun from "./filterfun";
 
+/**
+ * Custom React hook to fetch and filter data from an API endpoint.
+ * @param {string} apiEndpoint - The URL of the API endpoint to fetch data from.
+ * @returns {Object} - An object containing filtered data, filter value, loading state and a filter change handler.
+ */
 const usePsets = (apiEndpoint) => {
   const [psets, setPsets] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
