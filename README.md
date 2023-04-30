@@ -4,7 +4,7 @@
 The goal of this project is to load the data objects generated in the lab. This includes the data objects loaded from the ORCESTRA API and from MongoDB.
 
 ## Technology Stack
-JavaScript, Node.js, Express.js, React.js, Cascading-Style Sheets (CSS), Material-UI
+JavaScript, Node.js, Express.js, React.js, Cascading-Style Sheets (CSS), Material-UI, Postman (to test API endpoints)
 
 ## Installation
 Run `yarn dev` to host the server on localhost:3000. Then run `cd client` to naviagte to the frontend application and run `yarn start` on localhost:3001 to run the full application (note: the Terminal will prompt you to run the frontend on localhost:3001, select yes).
