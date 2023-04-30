@@ -7,8 +7,13 @@ import filterfun from "./filterfun";
  * @returns {Object} - An object containing filtered data, filter value, loading state and a filter change handler.
  */
 const usePsets = (apiEndpoint) => {
+  // state of the data
   const [psets, setPsets] = useState([]);
+  
+  // specifies the loading state between data fetching process
   const [isLoading, setIsLoading] = useState(true);
+  
+  // state of the filtering input
   const [filter, setFilter] = useState('');
   
   // fetch and parse data here
@@ -26,6 +31,7 @@ const usePsets = (apiEndpoint) => {
     setFilter(event.target.value);
   };
 
+  // retreive the filtered pset
   const filteredPsets = filterfun(psets, filter);
 
   return { filter, filteredPsets, isLoading, handleFilterChange };
