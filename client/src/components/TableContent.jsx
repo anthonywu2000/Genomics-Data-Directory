@@ -1,6 +1,7 @@
 import Linker from "./Linker.jsx";
 import { TableRow, TableCell, TableBody } from "@material-ui/core";
 
+// populate the table with the contents from the api endpoints, each row corresponding to a pset name and it DOI link created by the Linker component
 const TableContent = ({dat}) => {
     return (
         <TableBody>
